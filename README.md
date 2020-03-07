@@ -10,9 +10,28 @@
 <li>Drop one ‘accountNumber’ and ‘customerId’ because these two columns are just the same
 
 <h2>Step 2: Plot</h2>
-<h4>The histogram of transaction amount</h4>
-
+<li>The histogram of transaction amount
+<li>The sum of transaction amount everyday
+<li>The amount and time distribution of fraud transactions
+<li>Correlation between features
+<li>The number of transaction in each category
 
 <h2>Step 3: Data Wrangling - Duplicate Transactions</h2>
+<h4>Reversed type</h4>
+<li>There are a pair of transaction. One of the transaction type is REVERSAL and the other is PURCHASE
+<li>The purchase one occurred before the reversal one
+<li>They have same customer id, transaction amount, merchant name, card last 4 digit
+<h4>Multi-swipe type</h4>
+<li>There are more than 1 transaction. The transaction type is all PURCHASE
+<li>All transactions happen in 1 hour
+<li>They have same customer id, merchant name, card last 4 digit
 
 <h2>Step 4: Model</h2>
+<h4>Data cleaning</h4>
+
+<h4>Sampling</h4>
+
+<h4>Feature Selection based on feature importance</h4>
+
+<h4>Modeling</h4>
+
