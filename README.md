@@ -2,7 +2,10 @@
 <li>Xiaoyi Wang
   
 <h2>Step 1: Load the data</h2>
-<h3>The structure of the data</h3>
+<h4>The structure of the data</h4>
+<li>786363 records
+<li>29 fields
+
 
 <h2>Step 2: Plot</h2>
 
