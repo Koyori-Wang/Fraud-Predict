@@ -28,10 +28,18 @@
 
 <h2>Step 4: Model</h2>
 <h4>Data cleaning</h4>
+<li>Convert the datetime columns to int
+<li>Convert categorical columns to dummy variables
+<li>Add some Columns may releted to the fraud transaction
 
 <h4>Sampling</h4>
+<li>Use Random Over Sampling to deal with the imbalance
 
 <h4>Feature Selection based on feature importance</h4>
+<li>Select the most important 25 features
 
 <h4>Modeling</h4>
+<li>Decision Tree
+<li>Random Forest
+<li>Gradient Boosting
 
